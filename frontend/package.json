@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predepoly": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://mohitgithub2002.github.io/Impact-Program/",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "next": "13.0.5",
