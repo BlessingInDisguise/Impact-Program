@@ -81,15 +81,15 @@ export default function Home() {
 
 
         {/* three card section */}
-        <div id="cards"  className="relative z-50 flex items-center overflow-hidden bg-black dark:bg-black background h-screen md:h-[32rem]  w-full ">
-          <div className='container relative flex px-4 py-4   mx-8'>  
+        <div id="cards"  className="relative z-50 flex items-center justify-center overflow-hidden bg-black dark:bg-black background h-screen md:h-[32rem]  w-full ">
+          <div className='container relative flex px-4 py-4 mx-8'>  
             <div className='mt-6 md:gap-x-10 md:flex justify-center'>
-              <div className='my-6 w-full md:w-2/5 lg:w-1/5 lg:h-60 block p-6 rounded-lg shadow-3xl  bg-white hover:bg-bb3 max-w-sm-wrap items-center'>
+              <div className='my-6 w-full md:w-2/5 lg:w-1/5 block p-6 rounded-lg shadow-3xl  bg-white hover:bg-bb3 max-w-sm-wrap items-center'>
                 <div className='flex justify-center mb-3'>
                   <Img src = '/apply.svg' width={40} height={40} alt='apply'  />
                 </div>
                 <h1 className='text-gray-900 text-xl leading-tight font-semibold mb-2 flex justify-center'>Apply</h1>
-                <p className='text-gray-700 text-base mb-4 text-center  '>Interested contributors propose a project to work on.</p>
+                <p className='text-gray-700 text-base mb-4  text-center  '>Interested contributors propose a project to work on.</p>
               </div>
               <div className='my-6 w-full md:w-2/5 lg:w-1/5 block p-6 rounded-lg shadow-3xl bg-white  hover:bg-bb3 max-w-sm-wrap items-center'>
                 <div className='flex justify-center mb-3'>

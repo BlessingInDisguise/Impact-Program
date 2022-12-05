@@ -18,7 +18,7 @@ const Header = () => {
             {/* LOGO section */}
             <div className=" flex items-center">
               <Link className="flex-shrink-0" href="/">
-                <Img className="w-auto h-auto " src="/logoblack.png" alt="Workflow" width={150} height={20}/>
+                <Img className="w-auto h-auto " src="/logoblack.png" alt="Workflow" width={100} height={15}/>
               </Link>
             </div>
 
