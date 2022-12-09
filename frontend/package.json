@@ -13,7 +13,7 @@
   "homepage": "https://mohitgithub2002.github.io/Impact-Program/",
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "next": "13.0.5",
+    "next": "^13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
