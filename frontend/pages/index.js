@@ -20,7 +20,7 @@ export default function Home() {
         {/* Hero section */}
         <div > 
           <div className="relative z-20 flex items-center overflow-hidden bg-gray-800 dark:bg-gray-800 background h-screen  w-full ">
-              <div className="container relative flex justify-between px-6 py-16 mx-auto">
+              <div className="container relative flex justify-evenly px-6 py-16 mx-auto">
                   <div className="px-5 md:px-20 relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
                       <span className="w-40 h-4  md:pl-1.5 text-white"> BID Presents
                       </span>
@@ -41,9 +41,9 @@ export default function Home() {
                           </Link>
                       </div>
                   </div>
-                  <div className=" relative hidden sm:block md:w-1/3 lg:w-3/5">
+                  <div className=" relative hidden sm:block md:w-1/3 lg:w-2/5">
                       <Img
-                        src="/bid.png" className=" max-w-xs m-auto md:max-w-sm"
+                        src="/bid.png" className=" max-w-xs m-auto md:max-w-xl"
                         width={500}
                         height={500}
                         alt="Impact Program"
@@ -61,7 +61,7 @@ export default function Home() {
 
         <div id="about"  className="relative z-50 flex items-center overflow-hidden bg-white dark:bg-white background h-screen  w-full ">
           <div className="container relative  flex px-4 py-4   mx-8">
-            <div className=" md:flex justify-between w-full px-4 mx-auto lg:w-4/5">
+            <div className=" md:flex justify-between w-full px-4 mx-auto ">
               <div className='text'>
                 <h1 className='text-2xl font-bold md:text-4xl text-black '>
                   About Impact Program

@@ -146,13 +146,13 @@ const Header = () => {
               FAQ
             </Link>
             <Link
-              href="#"
+              href="/profile"
               className=" block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-100 hover:text-gray-900"
             >
               Profile
             </Link>
             <Link
-              href="#"
+              href="/login"
               className=" block px-3 py-2 rounded-md text-base font-medium text-red-700 hover:bg-gray-100 hover:text-red-700  "
             >
               Logout
@@ -175,7 +175,7 @@ const Header = () => {
           aria-labelledby="options-menu"
         >
           <Link
-            href="#"
+            href="/profile"
             className=" block px-4 py-2 text-md text-gray-700 hover:bg-bb3 hover:text-gray-100"
             role="menuitem"
           >
@@ -184,7 +184,7 @@ const Header = () => {
             </span>
           </Link>
           <Link
-            href="#"
+            href="/login"
             className=" block px-4 py-2 text-md text-red-700 hover:bg-red-700 hover:text-gray-100"
             role="menuitem"
           >
